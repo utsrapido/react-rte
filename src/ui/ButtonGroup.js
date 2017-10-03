@@ -3,15 +3,14 @@
 import React from 'react';
 import cx from 'classnames';
 
-import styles from './ButtonGroup.css';
+import {Button} from "semantic-ui-react";
 
 type Props = {
   className?: string;
 };
 
 export default function ButtonGroup(props: Props) {
-  let className = cx(props.className, styles.root);
   return (
-    <div {...props} className={className} />
+    <Button.Group style={{paddingRight: "5px"}} {...props}/>
   );
 }

@@ -28,11 +28,8 @@
     "draft-js-import-html": ">=0.4.0",
     "draft-js-import-markdown": ">=0.3.0",
     "draft-js-utils": ">=0.2.0",
-    "immutable": "^3.8.1"
-  },
-  "peerDependencies": {
-    "react": "0.14.x || 15.x.x",
-    "react-dom": "0.14.x || 15.x.x"
+    "immutable": "^3.8.1",
+    "semantic-ui-react": "^0.72.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -53,7 +50,9 @@
     "flow-bin": "^0.32.0",
     "mocha": "^3.1.2",
     "raw-loader": "^0.5.1",
+    "react": "0.14.x || 15.x.x",
     "react-addons-test-utils": "^15.0.2",
+    "react-dom": "0.14.x || 15.x.x",
     "rimraf": "^2.5.4",
     "style-loader": "^0.18.2",
     "webpack": "^3.4.0",

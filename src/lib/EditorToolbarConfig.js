@@ -41,9 +41,9 @@ export const BLOCK_TYPE_DROPDOWN: StyleConfigList = [
   {label: 'Code Block', style: 'code-block'},
 ];
 export const BLOCK_TYPE_BUTTONS: StyleConfigList = [
-  {label: 'UL', style: 'unordered-list-item'},
-  {label: 'OL', style: 'ordered-list-item'},
-  {label: 'Blockquote', style: 'blockquote'},
+  {label: 'UL', style: 'list ul'},
+  {label: 'OL', style: 'list ol'},
+  {label: 'Blockquote', style: 'quote left'},
 ];
 
 let EditorToolbarConfig: ToolbarConfig = {

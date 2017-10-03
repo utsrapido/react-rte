@@ -26,8 +26,6 @@ import type {ToolbarConfig, CustomControl} from './lib/EditorToolbarConfig';
 import type {ImportOptions} from './lib/EditorValue';
 
 import ButtonGroup from './ui/ButtonGroup';
-import Button from './ui/Button';
-import Dropdown from './ui/Dropdown';
 
 const MAX_LIST_DEPTH = 2;
 
@@ -363,8 +361,6 @@ Object.assign(RichTextEditor, {
   createEmptyValue,
   createValueFromString,
   ButtonGroup,
-  Button,
-  Dropdown,
 });
 
 export {
@@ -373,6 +369,4 @@ export {
   createEmptyValue,
   createValueFromString,
   ButtonGroup,
-  Button,
-  Dropdown,
 };
