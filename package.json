@@ -1,7 +1,7 @@
 {
-  "name": "react-rte",
-  "version": "0.15.0",
-  "description": "React Rich Text Editor",
+  "name": "react-rte-semantic",
+  "version": "0.1.0",
+  "description": "React Rich Text Editor Using Semantic UI React",
   "main": "dist/react-rte.js",
   "files": [
     "lib",
@@ -60,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sstur/react-rte.git"
+    "url": "git+https://github.com/utsrapido/react-rte-semantic"
   },
   "keywords": [
     "reactjs",
@@ -131,6 +131,9 @@
     {
       "name": "Hyunyoung Cho",
       "url": "https://github.com/ZeroCho"
+    },
+    {
+      "name": "Gennady Lavrov"
     }
   ],
   "license": "ISC",
