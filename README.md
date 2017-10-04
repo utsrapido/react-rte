@@ -2,6 +2,8 @@
 
 Semantic UI Version
 
+Fork from: https://github.com/sstur/react-rte
+
 ## License
 
 This software is [ISC Licensed](/LICENSE).
