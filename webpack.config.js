@@ -26,6 +26,26 @@ var rules = [
       },
     ],
   },
+    {
+        test: /\.scss$/,
+        use: [
+            {
+                loader: 'style-loader',
+                options: {sourceMap: true},
+            },
+            {
+                loader: 'css-loader',
+                options: {
+                    modules: true,
+                    importLoaders: true,
+                    localIdentName: '[name]__[local]___[hash:base64:5]',
+                },
+            },
+            {
+                loader: 'sass-loader',
+            },
+        ]
+    },
   {
     test: /\.global\.css$/,
     use: ['style-loader', 'raw-loader'],

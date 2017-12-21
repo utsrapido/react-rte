@@ -9,3 +9,7 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+div.root > div:not(:last-child) {
+  padding-right: 5px;
+}

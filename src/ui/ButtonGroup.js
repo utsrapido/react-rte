@@ -11,6 +11,6 @@ type Props = {
 
 export default function ButtonGroup(props: Props) {
   return (
-    <Button.Group style={{paddingRight: "5px"}} {...props}/>
+    <Button.Group {...props}/>
   );
 }

@@ -1,0 +1,15 @@
+
+.compactedDropdown{
+    display: inline;
+    :global{
+        .ui.selection.dropdown{
+            padding-top: 0.4em;
+            padding-bottom: 0.4em;
+            min-height: 0 !important;
+        }
+
+        i.dropdown.icon{
+            top: 0.3em !important;
+        }
+    }
+}
