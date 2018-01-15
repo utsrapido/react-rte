@@ -162,6 +162,7 @@ export default class EditorToolbar extends Component {
                 key={String(index)}
                 isActive={type.style === blockType}
                 label={type.label}
+                icon={type.icon}
                 onToggle={this._toggleBlockType}
                 style={type.style}
             />

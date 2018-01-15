@@ -5,6 +5,7 @@ import autobind from 'class-autobind';
 
 type Props = {
   style: string;
+  icon: string;
   onToggle: (style: string) => any;
 };
 
@@ -17,8 +18,8 @@ export default class StyleButton extends Component {
   }
 
   render() {
-    let {style, onToggle, ...otherProps} = this.props; // eslint-disable-line no-unused-vars
-    let iconName = style.toLowerCase();
+    let {icon,style, onToggle, ...otherProps} = this.props; // eslint-disable-line no-unused-vars
+    let iconName = icon || style.toLowerCase();
     // `focusOnClick` will prevent the editor from losing focus when a control
     // button is clicked.
     return (

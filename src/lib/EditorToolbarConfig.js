@@ -4,6 +4,7 @@ import type {EditorState} from 'draft-js';
 export type StyleConfig = {
   label: string;
   style: string;
+  icon?: string;
   className?: string;
 };
 
@@ -41,9 +42,9 @@ export const BLOCK_TYPE_DROPDOWN: StyleConfigList = [
   {label: 'Code Block', style: 'code-block'},
 ];
 export const BLOCK_TYPE_BUTTONS: StyleConfigList = [
-  {label: 'UL', style: 'list ul'},
-  {label: 'OL', style: 'list ol'},
-  {label: 'Blockquote', style: 'quote left'},
+  {label: 'UL', style: 'unordered-list-item',icon: "list ul"},
+  {label: 'OL', style: 'ordered-list-item',icon: "list ol"},
+  {label: 'Blockquote', style: 'blockquote',icon: "quote left"},
 ];
 
 let EditorToolbarConfig: ToolbarConfig = {
